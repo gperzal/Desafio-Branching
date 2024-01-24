@@ -15,10 +15,15 @@ h1 {
 }
   
 img {
-  max-width: 40%;
+  max-width: 80%;
   padding: 20px;
   display: block;
   margin: 0 auto;
+}
+
+/* Animacion de Imagen */ 
+img:hover{
+  filter: grayscale(80%);
 }
 
 form {
